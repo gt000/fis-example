@@ -76,6 +76,20 @@
         </repository>
       </repositories>
       <pluginRepositories>
+           <pluginRepository>
+          <id>apache</id>
+          <url>https://repo.maven.apache.org/maven2</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+        </pluginRepository>        
+         <pluginRepository>
+          <id>central</id>
+          <url>https://repo1.maven.org/maven2</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+        </pluginRepository>   
         <pluginRepository>
           <id>fusesource.m2</id>
           <name>FuseSource Community Release Repository</name>
