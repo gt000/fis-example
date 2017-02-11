@@ -24,7 +24,14 @@
     <profile>
       <id>fusesource.repo</id>
       <repositories>
-<repository>
+      <repository>
+          <id>apache</id>
+          <url>https://repo.maven.apache.org/maven2</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+        </repository>        
+         <repository>
           <id>central</id>
           <url>https://repo1.maven.org/maven2</url>
           <releases>
