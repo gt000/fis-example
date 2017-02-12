@@ -24,8 +24,15 @@
     <profile>
       <id>fusesource.repo</id>
       <repositories>
-      <repository>
-          <id>apache</id>
+      
+           <repository>
+            <id>openshift-repository</id>
+            <url>https://mirror.openshift.com/nexus/content/groups/public</url>
+        </repository>
+           
+           <repository>
+          
+           <id>apache</id>
           <url>https://repo.maven.apache.org/maven2</url>
           <releases>
             <enabled>true</enabled>
